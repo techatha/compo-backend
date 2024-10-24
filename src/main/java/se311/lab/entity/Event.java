@@ -33,4 +33,6 @@ public class Event {
     )
     @Builder.Default
     List<Participant> participants = new ArrayList<>();
+    @ElementCollection
+    List<String> images;
 }
